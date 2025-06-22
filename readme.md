@@ -2,6 +2,10 @@
 
 The device has been designed around regular ESP32-module to be fitted inside DIN-rail mounting enclosure. The board designed to be compact as much as possible. It takes 2 DIN-rail positions only.
 
+------
+<pre>sudo nano /etc/profile</pre>
+------
+
 ### Main features:
 
 - The **ESP32-BOX** has internal AC/DC-converter. Thus it could be powered from the regular AC line (i.e. wall socket) 100-240V;
