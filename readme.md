@@ -4,6 +4,8 @@ The device has been designed around regular ESP32-module to be fitted inside DIN
 
 ![preview](esp32box_din.jpeg)
 
+------
+
 ### Main features:
 
 - The **ESP32-BOX** has internal AC/DC-converter. Thus it could be powered from the regular AC line (i.e. wall socket) 100-240V (no external AC/DC adapters needed);
