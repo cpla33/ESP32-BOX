@@ -1,0 +1,106 @@
+esphome:
+  name: esp32-relay-board
+  friendly_name: ESP32 Relay Board
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+logger:
+api:
+ota:
+  platform: esphome
+
+wifi:
+  ssid: "MyWifiSsid"
+  password: "MyPassword"
+  ap:
+    ssid: "esp32-relay-board Fallback"
+    password: "fallbackpassword"
+
+captive_portal:
+
+# Outputs: LEDs
+output:
+  - platform: gpio
+    pin: 2
+    id: led_ok
+  - platform: gpio
+    pin: 16
+    id: led_fault
+  - platform: gpio
+    pin: 17
+    id: led_conn
+
+# GPIO Switches: Relays
+switch:
+  - platform: gpio
+    pin: 32
+    id: relay_1
+    name: "Relay 1"
+  - platform: gpio
+    pin: 33
+    id: relay_2
+    name: "Relay 2"
+  - platform: gpio
+    pin: 27
+    id: relay_3
+    name: "Relay 3"
+  - platform: gpio
+    pin: 26
+    id: relay_4
+    name: "Relay 4"
+
+# Inputs: Binary Sensors with Pull-up
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: 4
+      mode: INPUT_PULLUP
+    name: "Input 4"
+    id: input_4
+
+  - platform: gpio
+    pin:
+      number: 18
+      mode: INPUT_PULLUP
+    name: "Input 18"
+    id: input_18
+
+# Optional startup script to cycle relays like in the Arduino loop
+script:
+  - id: relay_cycle
+    then:
+      - logger.log: "Relay 1"
+      - switch.turn_on: relay_1
+      - switch.turn_off: relay_2
+      - switch.turn_off: relay_3
+      - switch.turn_off: relay_4
+      - delay: 500ms
+
+      - logger.log: "Relay 1+2"
+      - switch.turn_on: relay_2
+      - delay: 500ms
+
+      - logger.log: "Relay 1+2+3"
+      - switch.turn_on: relay_3
+      - delay: 500ms
+
+      - logger.log: "Relay 4"
+      - switch.turn_on: relay_4
+      - delay: 500ms
+
+      - logger.log: "Relay 3+4"
+      - switch.turn_off: relay_1
+      - switch.turn_off: relay_2
+      - delay: 500ms
+
+# Button to manually trigger the relay cycle
+button:
+  - platform: template
+    name: "Start Relay Cycle"
+    on_press:
+      then:
+        - script.execute: relay_cycle
+

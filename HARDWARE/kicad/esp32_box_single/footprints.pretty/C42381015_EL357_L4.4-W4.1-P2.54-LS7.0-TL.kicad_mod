@@ -1,0 +1,216 @@
+(footprint "C42381015_EL357_L4.4-W4.1-P2.54-LS7.0-TL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "OPTO-SMD-4_L4.4-W4.1-P2.54-LS7.0-TL footprint")
+	(tags "OPTO-SMD-4_L4.4-W4.1-P2.54-LS7.0-TL footprint C42381015")
+	(property "Reference" "${REFERENCE}"
+		(at 0 -3.270003 0)
+		(layer "F.SilkS")
+		(uuid "c30e8889-4d1a-41ed-9196-29a1cf3e81ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OPTO-SMD-4_L4.4-W4.1-P2.54-LS7.0-TL"
+		(at 0 3.270003 0)
+		(layer "F.Fab")
+		(uuid "cc25d236-42e0-44bc-b178-2cee4d05a1b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bad62c0-eef7-471f-9823-75eb15c35edd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b20c2b8-f62f-4070-9931-4a77299d2cf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1 -2.25)
+		(end -3.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6068279e-d372-4442-bbb6-1c35cd98388a")
+	)
+	(fp_line
+		(start -3.8 -1.95)
+		(end -4.1 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3363774f-0d91-4ae6-9367-06f202506ac4")
+	)
+	(fp_line
+		(start -3.5 -2.25)
+		(end -3.8 -1.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76d66979-4381-45bc-bc4b-fa79d5898fb6")
+	)
+	(fp_line
+		(start -2.199898 -2.100076)
+		(end -2.199898 2.099822)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a6feaa2-09d4-49ba-8384-a7e3f8e367d1")
+	)
+	(fp_line
+		(start -2.199898 2.099822)
+		(end 2.200152 2.099822)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dc10b04-706b-4c0c-b43b-ef975c1cea87")
+	)
+	(fp_line
+		(start 2.200152 -2.100076)
+		(end -2.199898 -2.100076)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c69a2ee2-e4ce-4dc9-93b0-d8febe597c88")
+	)
+	(fp_line
+		(start 2.200152 2.099822)
+		(end 2.200152 -2.100076)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e283b1a-76ef-43eb-bb01-80b632d5b810")
+	)
+	(fp_arc
+		(start -1.651003 -1.524003)
+		(mid -1.649733 -1.524007)
+		(end -1.648463 -1.524003)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff2e8454-44e1-44d3-97cb-1295f36ac326")
+	)
+	(fp_rect
+		(start -4.29 -2.35)
+		(end 4.28 2.33)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ccf23af7-652d-4a6d-a6fd-b817e1c91515")
+	)
+	(fp_rect
+		(start -2.11 -2.02)
+		(end 2.12 2.03)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "349b509e-5316-4432-bf0e-4dca16fc1006")
+	)
+	(fp_circle
+		(center -3.150114 -2.002286)
+		(end -3 -2.002286)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dd485f58-1b59-45e5-8e9c-f5141dff3d02")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "85607904-84a8-447b-b502-08d5a25eebb4")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.299975 -1.270003)
+		(size 1.7 0.950013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6251b169-606f-4c01-8a37-c4bd430f65b8")
+	)
+	(pad "2" smd rect
+		(at -3.299975 1.270003)
+		(size 1.7 0.950013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ec966c92-fb3c-4e68-82b6-9bc7218d516d")
+	)
+	(pad "3" smd rect
+		(at 3.299975 1.270003)
+		(size 1.7 0.950013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ffac6a16-2593-4cde-8d51-4ccd1a43ff8e")
+	)
+	(pad "4" smd rect
+		(at 3.299975 -1.270003)
+		(size 1.7 0.950013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "40aa147f-078d-4b69-b386-52090d52771a")
+	)
+	(embedded_fonts no)
+	(model "packages3d/OPTO-SMD-4_L4.4-W4.1-P2.54-LS7.0-TL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
