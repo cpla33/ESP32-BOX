@@ -1,0 +1,32 @@
+# Ignore all the files in any subfolders with the names ended to:
+**/*backups/*
+
+#Ignore all the zip-files with the name started with "backup" in any subdirectory
+**/backup*.zip
+
+# Ignore all the files in any subfolders with the names started with:
+**/backup*/*
+
+# Ignore all the files in any subfolders + all the subfoldered files in another directories inside that folder:
+**/cad/**
+**/kicad/**
+# **/datasheets/**
+# **/jlcpcb/**
+
+# Ignore the files:
+.gitignore
+fp-info-cache
+_autosave*
+
+# Ignore all the files (no matter where they are located) with the extensions as below:
+**/*.db
+**/*.lck
+
+**/*.bin
+**/*.uf2
+**/*.hex
+
+# Temporarily allowed
+# **/*.pdf
+# **/*.zip
+
