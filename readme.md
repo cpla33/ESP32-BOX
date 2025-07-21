@@ -49,4 +49,10 @@ A couple of different examples could be found in the [FIRMWARE](FIRMWARE/) folde
 
 ------
 
+### Schematics:
+
+Refer to the [schematics](HARDWARE/esp32_box_single.pdf) if needed.
+
+------
+
 Coming soon at Lectronz.com
