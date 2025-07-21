@@ -36,7 +36,7 @@ More options could be found [here](https://learn.adafruit.com/circuitpython-with
 
 ### Code examples:
 
-Code examples could be found in [EXAMPLES](EXAMPLES/) directory.
+Code examples could be found in [EXAMPLES](EXAMPLES/test_io.py) directory.
 
 
 
