@@ -32,7 +32,7 @@ A number of different IDEs and programming languages of any taste as below are a
 
 [Arduino](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 
-[CircuitPython](https://circuitpython.org/board/espressif_esp32_devkitc_v4_wroom_32e/)
+[CircuitPython](FIRMWARE/CIRCUITPYTHON/readme_circuitpython.md)
 
 [MicroPython](https://micropython.org/download/ESP32_GENERIC/)
 
