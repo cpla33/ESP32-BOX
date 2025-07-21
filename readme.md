@@ -20,6 +20,8 @@ The device has been designed around regular ESP32-module to be fitted inside DIN
 - The **ESP32-BOX** could be programmed with the ; write your sketches whenever you want: Arduino, CircuitPython, MicroPython or ESP-IDF.
 - Finally, **ESP32-BOX** is **ESPHome**-compatible!
 
+![preview](ESP32BOX_features.png)
+
 ------
 
 ### Programming:
